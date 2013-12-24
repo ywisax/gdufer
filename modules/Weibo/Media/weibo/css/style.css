@@ -1,0 +1,52 @@
+
+/**
+ * 微博发布相关的CSS
+ */
+#weibo-post {
+	margin-top: 30px;
+}
+#weibo-post legend {
+	font-weight: bold;
+}
+#weibo-post-area {
+	width: 98%;
+	max-width: 98%;
+	height: 80px;
+}
+#weibo-post-words {
+	float: right;
+	font-weight: bold;
+}
+#weibo-post-words small {
+	font-size: 18px;
+	color: red;
+}
+#weibo-functions a.function {
+	font-size: 18px;
+}
+
+#weibo-smile-list {
+	width: 250px;
+	margin: 0;
+}
+#weibo-smile-list li {
+	display: inline-block;
+	padding: 2px;
+	float: left;
+	cursor: pointer;
+}
+#weibo-smile-list li:hover {
+	background: #f4f4f4;
+}
+
+#modal-tag-input {
+	width: 97%;
+}
+#modal-tag .badge {
+	cursor: pointer;
+}
+
+/* uploadify上传优化
+ */
+.uploadify-button {
+}
