@@ -1,0 +1,51 @@
+/**
+ * 响应式布局样式
+ */
+@media (max-width: 979px) and (min-width: 768px) {
+	#new-topic-btn {
+		letter-spacing: 3px;
+	}
+	#forum-groups li {
+		padding: 0;
+	}
+	#forum-groups li.title {
+		display: block;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 10px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid #ddd;
+	}
+	#forum-search-widget .search-query {
+		width: 138px;
+	}
+	#forum-search-widget .search-submit {
+		width: 100%;
+		margin-top: 7px;
+	}
+}
+@media (max-width: 979px) {
+	#forum-groups li {
+		padding: 0;
+		margin-bottom: 7px;
+	}
+	#forum-groups li.title {
+		display: block;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 10px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid #ddd;
+	}
+	#topic-list .info {
+		margin-bottom: 5px;
+	}
+	#topic-list .static {
+		display: none;
+	}
+	#topic-list .static .span6 {
+		width: 46%;
+		float: left;
+		margin: 0 5px 0 0;
+	}
+}

@@ -1,0 +1,175 @@
+
+html { background: #00262f; font-size: 70%; font-family: "Century Gothic","Microsoft yahei","微软雅黑"; }
+body { margin: 0; }
+ol ol, ol ul, ul ul, ul ol { margin-bottom: 0; }
+a img { border: 0; }
+
+h1 small,
+h2 small,
+h3 small,
+h4 small { font-weight: normal; font-size: 0.7em; }
+h5 small,
+h6 small { font-weight: normal; font-size: 0.8em; }
+
+dl dd { margin-left: 0; }
+
+code {
+	color:#6BAA3D;
+}
+
+pre {
+	background:#fff;
+	border-radius:10px;
+	padding:1.5em;
+	font-size:0.9em;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	overflow:auto;
+}
+
+.highlighted div.line {
+	font-size:1em;
+	line-height:1.3 !important;
+}
+
+table {
+	background:#eee;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	margin-bottom:1.5em;
+	width: 100%;
+}
+
+table td, table th {
+	padding:0.4em 0.8em;
+	line-height:1.4286;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+table th {
+	background: #ddd;
+}
+
+table tr:nth-child(even) {
+	background: #fff;
+}
+
+a[href^="http:"] {
+	background-image: none;
+	padding-right: 0;
+}
+
+.caps { text-transform: uppercase; font-size: 0.8em; font-weight: normal; }
+.status { text-transform: lowercase; font-variant: small-caps; font-weight: bold; color: #911; }
+.container .colborder { border-color: #d3d8bc; }
+
+.note {
+	padding: 1.5em;
+	padding-left: 5em;
+	background: #e8efcf url('../img/lightbulb_48.png') no-repeat 1em center;
+	border-radius: 0.6em;
+	overflow: auto;
+}
+
+h1 a.permalink,
+h2 a.permalink,
+h3 a.permalink,
+h4 a.permalink,
+h5 a.permalink,
+h6 a.permalink {
+	font-size: 0.6em;
+	line-height: 100%;
+	vertical-align: middle;
+	margin-left: 1em;
+	padding: 0;
+	font-weight: normal;
+	display: none;
+	position: inherit;
+}
+
+h1:hover a.permalink,
+h2:hover a.permalink,
+h3:hover a.permalink,
+h4:hover a.permalink,
+h5:hover a.permalink,
+h6:hover a.permalink {
+	display: inline;
+}
+
+
+#guide-header,
+#guide-content,
+#guide-footer { float: left; clear: both; width: 100%; }
+
+#guide-header { padding: 58px 0 2em; background: #77c244 url(../img/header.png) center top repeat-x; }
+	#guide-logo { display: block; float: left; }
+	#guide-menu { float: right; margin-top: 12px; background: #113c32; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+	#guide-menu ul { float: left; margin: 0; padding: 0 0.5em 0 0; }
+		#guide-menu li { display: block; float: left; margin: 0; padding: 0; }
+		#guide-menu li.first { padding-left: 0.5em; }
+			#guide-menu li a { display: block; height: 32px; line-height: 32px; padding: 0 0.8em; border-right: solid 1px #0f362d; border-left: solid 1px #144539; letter-spacing: 0.05em; text-decoration: none; text-transform: uppercase; color: #efefef; font-size: 90%; }
+			#guide-menu li.first a { border-left: 0; }
+			#guide-menu li.last a { border-right: 0; }
+			#guide-menu li a:hover { background: #164e41; border-left-color: #195a4b; color: #fff; text-shadow: #fff 0 0 1px; }
+
+#guide-content { background: #f1f8db url(../img/content.png) center top repeat-x; }
+	#guide-content .wrapper { min-height: 390px; padding: 1em 0; background: transparent url(../img/wrapper.png) center top no-repeat; }
+	#guide-content div.page-toc { float: right; margin: 1em; margin-top: 0; padding: 1em; background: #fff; border: solid 0.1em #e8efcf; border-radius: 0.6em; }
+	#guide-content p.intro { padding: 1em 20px; padding-left: 20px; margin: 0 -20px; font-size: 1.2em; }
+	#guide-content a { color: #004352; text-decoration: none; }
+	#guide-content a:hover { color: #00758f; }
+	#guide-content a:active { text-decoration: none; }
+
+#guide-breadcrumb { margin: 0 0 1em; padding: 0 0 0.5em; list-style: none; border-bottom: solid 1px #e8efcf; }
+	#guide-breadcrumb li { display: inline-block; margin: 0; padding: 0 0.4em 0 0; text-transform: uppercase; font-size: 11px; }
+	#guide-breadcrumb li:before { content: '»'; padding-right: 0.4em; }
+	#guide-breadcrumb li a { color: #999; text-decoration: none; }
+
+#guide-topics {  }
+	#guide-topics ul,
+	#guide-topics ol { list-style-type:none; margin: 0; padding: 0;}
+		#guide-topics ul li,
+		#guide-topics ol li { margin:0; padding: 0; margin-left: 1em; }
+		#guide-topics ul li a.current,
+		#guide-topics ol li a.current { font-weight: bold; }
+	#guide-topics span,
+	#guide-topics a { display: block; padding: 0; margin: 0; }
+	#guide-topics span { cursor: pointer; }
+	#guide-topics span.toggle { display: block; float: left; width: 1em; padding-right: 0.4em; margin-left: -1.4em; text-align: center; }
+
+	#guide-topics li span { cursor:pointer; }
+
+#guide-footer { padding: 1em 0; background: #00262f; color: #405c63; text-shadow: #00262f 0.1em 0.1em 1px; font-size: 0.9em; }
+	#guide-footer a { color: #809397; }
+	#guide-footer div.last { text-align: right; }
+	
+/* api index page */
+div.class-list div.class { }
+	div.class-list div.class h2 { background:none; }
+
+/* table of contents at the top of each class */
+div.toc { }
+div.toc div {float:left; width: 33%;}
+div.toc div h3 {margin-top:0; background:none; }
+
+
+/* constants */
+div.constants dl dt {font-weight:bold; margin-bottom:1.5em;}
+div.constants dl dd {margin-left:1.5em; margin-bottom:1.5em;}
+
+/* properties */
+div.properties dl dt { font-weight:bold; margin-top:1.5em; margin-bottom:1.5em;}
+div.properties dl dt small, div.properties dl dt code { font-weight:normal; font-size:0.9em; }
+div.properties dl dd {margin-left:1.5em; margin-bottom:1.5em;}
+
+/* functions */
+
+div.method { padding:0 1.5em; border:1px solid #c8cfaf; border-radius:5px; margin-bottom:1.5em; }
+div.method h3 { background:none; margin-top:0; margin-left:-1em; margin-right:-1em; padding:.75em 0 .75em 1.17em; background:#e8efcf; border-top-left-radius:5px; border-top-right-radius:5px; }
+div.method h3 .param { font-weight: normal; cursor: help; border-bottom:1px dashed #666;}
+div.method h3 abbr.param { text-transform: none; font-size: 1em; }
+
+dl.tags { overflow: auto; background: #e8efcf; padding: 1em; border: solid 6px #d8dfbf; margin-bottom:1.5em; }
+	dl.tags dt { margin: 0; clear: both; float: left; width: 25%; }
+	dl.tags dd { margin: 0; padding: 0; clear: right; float: right; }

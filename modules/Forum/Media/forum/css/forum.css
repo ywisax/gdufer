@@ -1,0 +1,241 @@
+
+#forum {
+	min-height: 100px;
+}
+#sidebar {
+	min-height: 100px;
+}
+
+#forum .loading, #sidebar .loading {
+	width: 100%;
+	height: 100%;
+}
+
+#community-about .stats .table {
+	margin-bottom: 0;
+}
+
+/**
+ * 帖子列表
+ */
+#group-header {
+	border-bottom: 4px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+#topic-list {}
+#topic-moderator-menu {
+	width: 200px;
+	padding-right: 10px;
+}
+.topic-list-empty {
+	padding: 20px;
+	text-align: center;
+}
+#topic-list li {
+	padding: 15px 0;
+	border-bottom: 1px dashed #C1C1C1;
+}
+#topic-list .avatar-block {
+	margin-left: 7px;
+	margin-right: 10px;
+}
+#topic-list .topic-details a.subject, #topic-list .topic-details a.group {
+	font-size: 120%;
+}
+#topic-list .topic-details a.subject.sticky {
+	color: #F89406;
+	font-weight: bold;
+}
+#topic-list .topic-details .title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#topic-list .topic-details .meta {
+	margin-top: 7px;
+}
+#topic-list .topic-details .meta a {
+	text-decoration: none;
+}
+#topic-list .group {
+	text-decoration: none;
+}
+#topic-list .static .label {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 150%;
+	line-height: 24px;
+}
+#topic-list .static .label small {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+}
+#topic-list .meta .label {
+	padding: 5px 8px;
+}
+.topic-item:hover {
+	/*background: #FFFFCC;*/
+}
+.topic-item:hover .hits {
+	background: #5bb75b;
+}
+.topic-item:hover .comments {
+	background: #468847;
+}
+
+/**
+ * 发布新帖
+ */
+#new-topic-btn {
+	letter-spacing: 12px;
+	font-size: 24px;
+	padding: 24px;
+}
+#broadcast-fastpost .modal-header {
+	background: #5bb75b;
+}
+#broadcast-fastpost .modal-header h3 {
+	font-size: 18px;
+	color: #fff;
+}
+#broadcast-groups {}
+#broadcast-groups li {
+	width: 30%;
+	text-align: center;
+	margin: 0;
+}
+#broadcast-groups li a {
+	font-size: 18px;
+	display: block;
+	padding: 10px 0;
+}
+#broadcast-groups li a:hover {
+	text-decoration: none;
+	background: #f4f4f4;
+}
+
+#new_members li {
+	display: block;
+	width: 54px;
+	height: 54px;
+	float: left;
+	padding: 0 5px 5px 0;
+}
+#new_members li .avatar {
+	opacity: 1;
+	z-index: 1;
+}
+#new_members li .avatar img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/**
+ * 帖子页面
+ */
+.topic-view {
+}
+.topic-view h2.title {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 13px;
+	padding-bottom: 13px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.topic-view .meta {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.topic-view .meta .avatar {
+	display: block;
+	width: 54px;
+	height: 54px;
+	float: left;
+	padding: 0 5px 5px 0;
+	opacity: 1;
+	z-index: 1;
+}
+.topic-view .meta .avatar img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.topic-view .content {
+	float: left;
+	width: 806px;
+}
+.topic-view .content .header {
+	background: #f4f4f4;
+	margin: 0;
+	padding: 7px 7px;
+}
+.topic-view .content .header .poster {
+	font-weight: bold;
+}
+.topic-view .content .inner {
+	padding: 10px 5px;
+}
+
+#topic-moderator-menu {
+	width: 100px;
+	min-width: 100px;
+	max-width: 100px;
+	padding: 10px 5px;
+	text-align: center;
+}
+#topic-moderator-menu li {
+	width: 100px;
+}
+#topic-moderator-menu li a {
+	width: 60px;
+	padding: 3px 20px;
+}
+
+#reply-form {
+	margin-top: 15px;
+}
+
+.topic-reply-list .reply {
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+	margin-top: 15px;
+}
+.reply .meta {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.reply .meta .avatar {
+	display: block;
+	width: 54px;
+	height: 54px;
+	float: left;
+	padding: 0 5px 5px 0;
+	opacity: 1;
+	z-index: 1;
+}
+.reply .meta .avatar img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.reply .content {
+	float: left;
+	width: 806px;
+}
+.reply .content .header {
+	background: #f4f4f4;
+	margin: 0;
+	padding: 7px 7px;
+}
+.reply .content .header .poster {
+	font-weight: bold;
+}
+.reply .content .inner {
+	padding: 5px;
+}

@@ -1,0 +1,16 @@
+#contact-us-form {
+	margin-top: 30px;
+}
+#contact-us-form input {
+	width: 516px;
+}
+#contact-us-form textarea {
+	width: 516px;
+	height: 90px;
+}
+#contact-us-form img.captcha {
+	margin-bottom: 10px;
+}
+#contact-us-form #captcha-input {
+	width: 160px;
+}

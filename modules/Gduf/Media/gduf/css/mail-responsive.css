@@ -1,0 +1,32 @@
+@media (max-width: 979px) {
+	#gduf-menu .well {
+		padding: 10px 5px;
+	}
+	#gduf-menu li a {
+		
+	}
+	#mail-modal .modal-body {
+		max-height: 300px;
+	}
+}
+
+@media (max-width: 767px) {
+	#mail-modal {
+		width: 96%;
+		left: 2%;
+		right: 2%;
+		margin: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#mail-modal {
+		top: 15%;
+		width: 96%;
+		left: 2%;
+		right: 2%;
+	}
+	#gduf-menu li a {
+		
+	}
+}
