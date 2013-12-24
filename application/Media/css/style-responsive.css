@@ -1,0 +1,57 @@
+/**
+ * 匹配768px
+ */
+@media screen and (max-width: 768px) {@media (max-width: 480px) {
+	.scrolltop {
+		bottom: 5%;
+		top: auto;
+		opacity: 1;
+	}
+	.scrolltop span {
+		top: 8px;
+		left: 0;
+	}
+	#footer {
+		background: none;
+		text-align: center;
+	}
+}
+
+/**
+ * 匹配768px
+ */
+@media screen and (max-width: 768px) {
+	#footer {
+		background: none;
+		text-align: center;
+	}
+	#footer #bdshare {
+		display: none;
+	}
+}
+
+
+/**
+ * 979px
+ */
+@media (max-width: 979px) and (min-width: 768px) {
+	#footer .container {
+		background: none;
+		text-align: center;
+	}
+	#footer .inner  {
+		margin: 30px 0 10px 0;
+	}
+}
+@media (max-width: 979px) {
+	#topnav .navbar-inner {
+		padding: 5px 30px;
+	}
+	#footer .container {
+		background: none;
+		text-align: center;
+	}
+	#footer .inner  {
+		margin: 30px 0 10px 0;
+	}
+}

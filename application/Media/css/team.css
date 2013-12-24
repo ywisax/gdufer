@@ -1,0 +1,62 @@
+
+/**
+ * 加入我们的各种样式
+ */
+#team {
+}
+#team .header {
+	text-align: center;
+	padding: 30px 0;
+}
+#team img {
+	float: left;
+}
+#team .text {
+	float: left;
+	padding-left: 42px;
+	padding-top: 32px;
+}
+#team .text p {
+	font-size: 20px;
+}
+#jobs {
+	margin: 90px 0;
+}
+#jobs > div {
+	height: 18px;
+	padding-top: 66px;
+	margin-bottom: 48px;
+	float: left;
+	text-align: center;
+}
+#jobs div.php {
+	background: url(../img/jobs/jobs06.png) no-repeat center top;
+}
+#jobs div.front {
+	background: url(../img/jobs/jobs05.png) no-repeat center top;
+}
+#jobs div.linux {
+	background: url(../img/jobs/jobs02.png) no-repeat center top;
+}
+#jobs div.market {
+	background: url(../img/jobs/jobs03.png) no-repeat center top;
+}
+#jobs .more {
+	width: auto;
+	padding: 20px 25px;
+}
+#jobs .more p {
+	font-size: 48px;
+}
+#contact {
+	margin-bottom: 30px;
+}
+#contact p {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+#contact .email a {
+	font-size: 20px;
+	color: #FFA12D;
+}

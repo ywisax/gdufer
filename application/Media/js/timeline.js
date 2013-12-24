@@ -1,0 +1,5 @@
+$(function(){ 
+	$().timelinr({ 
+		orientation:'vertical'
+	}); 
+});

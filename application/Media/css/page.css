@@ -1,0 +1,200 @@
+#xunsec-header {
+	background: #089708;
+	padding: 8px 15px;
+	margin: 0 0 15px 0;
+	color: white;
+	height: 24px;
+	text-align: left;
+}
+	#xunsec-header p {
+		margin:0;
+		padding:0;
+	}
+	#xunsec-header a {
+		color:white;
+		background:transparent;
+		padding:0;
+		margin:0;
+		text-decoration:underline;
+		font-size:14px;
+	}
+	#xunsec-header a:hover {
+		text-decoration:none;
+	}
+	
+#xunsec-admin .xunsec-area-title,
+#xunsec-admin .xunsec-element-control,
+#xunsec-admin .xunsec-element-control>p.title,
+#xunsec-admin .xunsec-element-control ul.xunsec-element-actions,
+#xunsec-admin .xunsec-element-control ul.xunsec-element-actions li,
+#xunsec-admin .xunsec-element-control ul.xunsec-element-actions a {
+	text-decoration:none;
+	text-transform:none;
+	padding:0;
+	margin:0;
+	background:none;
+	color:black;
+	text-align:left;
+	text-transform:none;
+	text-decoration:none;
+	font-weight:normal;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+#xunsec-admin .xunsec-area {
+	outline:2px dashed #158C15;
+	clear:left;
+	margin:-5px;
+	padding:5px;
+}
+
+#xunsec-admin .xunsec-area-title {
+	margin:0;
+	padding:4px 8px;
+	background:#158C15;
+	color:white;
+	font-weight:bold;
+	font-size:12px;
+	width:auto;
+	float:left;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+}
+
+#xunsec-admin .xunsec-element-control {
+
+	font-size:12px;
+	background:#158C15;
+	padding:5px;
+	color:white;
+	font-family:Arial,Helvetica,sans serif;
+	background:#666666 url('../img/contentbar.png') 0 0px repeat-x scroll;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	position:relative;
+	
+}
+
+	#xunsec-admin .xunsec-element-control p.title {
+		padding:.2em;
+		margin:0;
+		font-size:1.2em;
+		font-weight:bold;
+		color:white;
+		text-transform:none;
+		line-height:1em;
+	}
+	
+	#xunsec-admin .xunsec-element-control p.title img {
+		float:left;
+		position:relative;
+		top:-2px;
+	}
+	
+	#xunsec-admin .xunsec-element-control ul.xunsec-element-actions {
+		display:none;
+		position:absolute;
+		background:#666666;
+		z-index:1;
+		left:0;
+		top:2.4em;
+		list-style:none;
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px;
+	}
+	
+	#xunsec-admin .xunsec-element-control:hover ul.xunsec-element-actions {
+		display:block;
+	}
+	
+	#xunsec-admin .xunsec-element-control ul.xunsec-element-actions li {
+		width:100%;
+		list-style:none;
+		padding:0;
+		margin:0;
+	}
+	
+		#xunsec-admin .xunsec-element-control ul.xunsec-element-actions li:hover {
+			
+		}
+		
+		#xunsec-admin .xunsec-element-control ul.xunsec-element-actions li a {
+			color:white;
+			font-weight:bold;
+			padding:6px 10px 5px 5px;
+			display:block;
+			
+			-moz-border-radius-bottomright:5px;
+			-moz-border-radius-topleft:5px;
+			-webkit-border-bottom-right-radius:5px;
+			-webkit-border-top-left-radius:5px;
+		}
+		
+		#xunsec-admin .xunsec-element-control ul.xunsec-element-actions li a:hover {
+			background:#22AA22;
+		}
+	
+	#xunsec-admin .xunsec-element-control form {
+		padding-top:5px;
+	}
+	
+	#xunsec-admin .xunsec-element-control input, #xunsec-admin .xunsec-element-control select  {
+		-moz-border-radius-bottomright:5px;
+		-moz-border-radius-topleft:5px;
+		-webkit-border-bottom-right-radius:5px;
+		-webkit-border-top-left-radius:5px;
+		border:1px solid #ddd;
+		font-family:inherit;
+		font-size:inherit;
+		padding:2px;
+	}
+	
+	#xunsec-admin .xunsec-element-control input.submit {
+		color:#fff;
+		padding:4px 5px
+	}
+	
+	#xunsec-admin .xunsec-element-control input.submit  {
+		border:none;
+		background:#1F7F1F url('../img/button.png') 0 -10px repeat-x scroll;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	#xunsec-admin .xunsec-element-control input.submit:hover {
+		border:none;
+		background:#1F7F1F url('../img/button.png') 0 -5px repeat-x scroll;
+	}
+	
+	#xunsec-admin .xunsec-element-control input.submit:active  {
+		background:#1F7F1F url('../img/button-hover.png') bottom left repeat-x scroll;
+	}
+
+#xunsec-admin .fam-edit,
+#xunsec-admin .fam-delete,
+#xunsec-admin .fam-up,
+#xunsec-admin .fam-down,
+#xunsec-admin .fam-add
+{
+	background:url('../img/fam-sprite.png');
+	display:block;
+	width:16px; height:16px;
+	padding:0; margin:0;
+}
+
+#xunsec-admin .fam-delete {background-position:-50px 0px}
+#xunsec-admin .fam-edit {background-position:-75px 0px}
+#xunsec-admin .fam-up {background-position:0px -25px}
+#xunsec-admin .fam-down {background-position:-25px -25px}
+#xunsec-admin .fam-add {background-position:-25px 0px}
+
+#xunsec-admin .inline-sprite {
+	float:left;
+	margin-right:4px;
+	display:block;
+}

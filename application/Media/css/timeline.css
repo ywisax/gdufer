@@ -1,0 +1,62 @@
+#main-content {
+	background: url(../img/gduf.jpg) no-repeat 440px 60px;
+}
+#timeline {
+	width: 840px;
+	height: 440px;
+	overflow: hidden;
+	margin: 40px auto; 
+	position: relative;
+	background: url('../img/dot.gif') 136px top repeat-y;
+}
+#dates { width: 115px; height: 440px; overflow: hidden; float: left; }
+#dates li { list-style: none; width: 100px; height: 100px; line-height: 100px; font-size: 24px; padding-right:20px; text-align:right; background: url('../img/biggerdot.png') 108px center no-repeat; }
+#dates a {
+	line-height: 38px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+#dates .selected {
+	font-size: 38px;
+	font-weight: bold;
+}
+#issues {
+	width: 630px;
+	height: 440px;
+	overflow: hidden;
+	float: right;
+}
+#issues li {
+	width: 630px;
+	height: 440px;
+	list-style: none;
+}
+#issues li h1 {
+	color: #ffcc00;
+	font-size: 42px;
+	height:52px;
+	line-height:52px;
+	text-shadow: #000 1px 1px 2px;
+	padding: 40px 0 20px;
+}
+#issues li p {font-size: 20px;margin: 10px;line-height: 30px;}
+
+#timeline #prev {
+	position: absolute;
+	left: 24px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/arrow_up.png);
+	text-indent: -9999px;
+}
+#timeline #next {
+	position: absolute;
+	left: 24px;
+	top: 50px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/arrow_down.png);
+	text-indent: -9999px;
+}
