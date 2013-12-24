@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /guide/*
+Disallow: /media/*
+Disallow: /upload/*
+Disallow: /user/*
+
+#调试期间屏蔽蜘蛛的爬行
