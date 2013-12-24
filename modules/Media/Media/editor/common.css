@@ -1,0 +1,23 @@
+#editor-group-hyperlink .input-url {
+}
+#editor-group-hyperlink .input-append {
+	padding: 5px;
+	display: none;
+}
+#editor-group-hyperlink.open .input-append {
+	display: block;
+	border: 1px solid #ddd;
+	background: #eee;
+}
+
+#editor-group-image .input-url {
+}
+#editor-group-image .input-append {
+	padding: 5px;
+	display: none;
+}
+#editor-group-image.open .input-append {
+	display: block;
+	border: 1px solid #ddd;
+	background: #eee;
+}

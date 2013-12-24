@@ -1,0 +1,1 @@
+<div id="footer">	<div class="container inner">		<p class="text-right">Powered by XunSec</p>	</div></div>

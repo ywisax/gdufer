@@ -1,0 +1,133 @@
+#gduf-login .welcome-mail #gduf-login-form {
+	margin-bottom: 0;
+}
+#gduf-login .welcome-mail .new-notice {
+	padding: 20px;
+	font-size: 16px;
+}
+#gduf-login .control-group.notice {
+	border-top: 1px solid #ddd;
+	padding-top: 18px;
+	margin-bottom: 0;
+}
+
+#mainbox .ke-insertfile {
+	background: url(../img/down-alert.png) no-repeat;
+	font-size: 18px;
+	padding-left: 26px;
+}
+
+#gduf-menu {
+	margin-top: 75px;
+}
+#gduf-menu li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#gduf-menu li a {
+	font-size: 18px;
+	text-decoration: none;
+}
+#gduf-menu li a:hover {
+	color: #FFA630;
+}
+#gduf-menu li.active a {
+	font-weight: bold;
+}
+
+#gduf-mailbox tr {
+	background: #f8f8f8;
+	cursor: pointer;
+}
+#gduf-mailbox tr:hover {
+	background: #fcf8e3;
+}
+#gduf-mailbox tr.unread {
+	font-weight: bold;
+	background: transparent;
+}
+#mail-content td.status input {
+	padding: 0;
+	margin: 0;
+}
+#mail-content td.status img {
+	margin-left: 5px;
+}
+#mail-content td.sender {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#mail-content td.title {
+}
+#mail-content a.read-mail:hover {
+	text-decoration: none;
+}
+
+
+
+#mail-modal {
+	width: 800px;
+	margin-left: -400px;
+	top: 64px;
+}
+#mail-modal-label {
+	padding: 7px 0;
+}
+#mail-modal-label span {
+	font-size: 18px;
+	font-weight: bold;
+}
+#mail-modal table {
+	margin-bottom: 0;
+}
+#mail-modal td { }
+#mail-modal tr { }
+#mail-modal .mail-table td {
+    border-top: none;
+	padding: 0;
+}
+#mail-modal .mail-table th, #mail-modal .mail-table td { 
+     border-top: none;
+	 padding-bottom: 4px;
+ }
+#mail-modal .mail-meta {
+	margin-bottom: 7px;
+	border-bottom: 1px solid #ddd;
+}
+#mail-modal .mail-meta tr {
+	padding: 0;
+}
+#mail-modal .mail-meta .subject, #mail-modal .mail-meta .data {
+	margin-bottom: 7px;
+}
+#mail-modal .mail-content { }
+#mail-modal .mail-content .iframe-content {
+	padding: 10px 0;
+}
+#send-modal {
+	width: 800px;
+	margin-left: -400px;
+}
+#send-modal #subject {
+	width: 630px;
+}
+#send-modal #receiver {
+	width: 544px;
+}
+#send-modal .form-horizontal .control-label {
+	width: 80px;
+}
+#send-modal .form-horizontal .controls {
+	margin-left: 100px;
+}
+#gduf-attachments .fileupload-preview {
+	margin: 0 10px;
+}
+#gduf-attachments>.fileupload {
+	padding: 2px 7px;
+}
+#gduf-attachments>.fileupload:hover {
+	background: #fcf8e3;
+}
+
